@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body {
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 6px;
+}
+
+#title{
+    font-family: 'WindSong', cursive;
+}
+
+.topnav{
+    background: black;
+    overflow: hidden;
+    border-radius: 6px;
+}  
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+#login{
+    background-color: black;
+    color: #ddd;
+    float: right;
+    padding: 14px 16px;
+    border: none;
+    font-size:medium;
+    cursor:pointer;    
+}
+
+#login:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+#postarticle{
+    width:100%;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-size: larger;
+    background-color: cadetblue;
+    margin-top: 5px;
+    border-radius: 6px;
+    cursor:pointer;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.card{
+    background-color: gainsboro;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+#quotetext{
+    font-family: 'WindSong', cursive;
+    font-size: x-large;
+}
+
+.UVote{
+    border: none;
+    background-color: burlywood;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+.DVote{
+    border: none;
+    background-color: #ff8080;
+    margin-left: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+.UVote:active{
+    background-color: cadetblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.DVote:active{
+    background-color: #ff8080;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.UDVal{
+    background-color: #ddd;
+    margin: 5px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#Submitbutton{
+    border: none;
+    color: white;
+    background-color: teal;
+    border-radius: 6px;
+    font-size: larger;
+    margin-top: 4px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.formbox{
+    background-color: #666;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: large;
+}
